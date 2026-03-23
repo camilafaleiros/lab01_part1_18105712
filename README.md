@@ -144,18 +144,18 @@ Cada linha representa uma transação de cartão de crédito.
 
 ## Instruções de execução
 
-###Pré-requisitos:
+### Pré-requisitos:
 - PostgreSQL instalado e em execução
 - Banco de dados `lab01_dw` criado
 - Acesso configurado com usuário e senha no código
 
-###1. Instalação das dependências  
+### 1. Instalação das dependências  
 
 Antes de executar o projeto, é necessário instalar as bibliotecas utilizadas:
 
 pip install -r requirements.txt
 
-###2. Ordem de execução dos scripts  
+### 2. Ordem de execução dos scripts  
 
 Os scripts devem ser executados na seguinte ordem, respeitando a sequência do pipeline de dados:
 
@@ -165,7 +165,7 @@ python src/03_processamento_silver.py
 python src/04_processamento_gold.py
 python src/05_metricas_gold.py
 
-###3. Descrição das etapas  
+### 3. Descrição das etapas  
 
 - 01_ingestao_bronze.py
 Realiza a ingestão dos dados brutos (CSV) para o PostgreSQL, criando a camada Bronze.
@@ -178,11 +178,11 @@ Aplica modelagem dimensional (Star Schema), criando tabelas fato e dimensões na
 - 05_metricas_gold.py
 Executa consultas analíticas na Gold e gera métricas de negócio e relatórios.
 
-###4. Resultado  
+### 4. Resultado  
 
 Ao final da execução, o usuário recebe um relatório analítico com os principais padrões de fraude identificados.
 
-###Observação  
+### Observação  
 Os arquivos de dados utilizados no projeto (dataset original e arquivos `.parquet`) não foram versionados no repositório devido a limitações de tamanho do GitHub.
 
 Essa decisão segue boas práticas de engenharia de dados, onde arquivos volumosos devem ser armazenados em soluções apropriadas (como data lakes ou armazenamento externo), e não diretamente no controle de versão.
