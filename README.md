@@ -65,7 +65,7 @@ Gráficos gerados:
 Top 10 estados com mais transações:
 ![alt text](image-11.png)
 
-Valor das transações:  
+Valor das transações:
 
 ![alt text](02_valor_transacoes.png)  
 
