@@ -31,24 +31,24 @@ Essas etapas não fazem parte do pipeline de dados, mas são necessárias para s
 Os dados foram carregados da camada Raw para a Bronze sem qualquer modificação, respeitando o princípio de integridade dos dados.
 
 Script:
-![alt text](image-4.png)
+![alt text](imagens/image-4.png)
 
 Resultado:
-![alt text](image-3.png)
+![alt text](imagens/image-3.png)
 
 ### 2. Validação
 Foi realizada a validação para garantir que os dados na Bronze são idênticos aos da Raw.
 
 Script:
-![alt text](image-5.png)
+![alt text](imagens/image-5.png)
 
 Resultado:
-![alt text](image-2.png)
+![alt text](imagens/image-2.png)
 
 ### 3. Tratamento (Silver)
 
 Resultado:
-![alt text](image-6.png)
+![alt text](imagens/image-6.png)
 
 Problemas Identificados:
 - Coluna irrelevante (`unnamed_0`) removida por não possuir valor analítico.
@@ -59,15 +59,24 @@ Problemas Identificados:
 
 ## Gráficos gerados
 
+<<<<<<< HEAD
 ### Top 10 cidades com mais transações
 ![Top 10 cidades](01_cidades.png)
 
 ### Top 10 estados com mais transações
 ![Top 10 estados](image-11.png)
+=======
+#Top 10 cidades com mais transações:
+![alt text](imagens/image-11.png)
+
+Top 10 estados com mais transações:
+![alt text](imagens/image-11.png)
+>>>>>>> e24b88f (correcao readme.md)
 
 ### Valor das transações
 ![Valor das transações](02_valor_transacoes.png)
 
+<<<<<<< HEAD
 **Obs:** A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
 
 ### Categorias de compras com maior índice de fraude
@@ -75,6 +84,18 @@ Problemas Identificados:
 
 ### Proporção de fraudes por gênero
 ![Fraude por gênero](image-10.png)
+=======
+![alt text](imagens/02_valor_transacoes.png)  
+
+  
+Obs: A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
+
+Categorias de compras com maior indice de fraude:
+![alt text](imagens/image-9.png)
+
+Proporção de fraudes por gênero:
+![alt text](imagens/image-10.png)
+>>>>>>> e24b88f (correcao readme.md)
 
 
 ### 4. Business (Gold)
@@ -83,10 +104,10 @@ A camada Gold foi modelada em formato Star Schema, com uma tabela fato central (
 O processamento Gold é responsável pela modelagem e estruturação dos dados, enquanto o script de métricas consome a camada Gold para gerar insights de negócio.
 
 Execução processamento gold:
-![alt text](image-7.png)
+![alt text](imagens/image-7.png)
 
 Execução métricas gold:
-![alt text](image-8.png)
+![alt text](imagens/image-8.png)
 
   
 ### Perguntas de negócio respondidas
