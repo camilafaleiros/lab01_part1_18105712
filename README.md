@@ -57,25 +57,24 @@ Problemas Identificados:
 - Presença de outliers na variável de valor (`amt`).
 - Dados sensíveis presentes (nome, endereço, cartão), sem anonimização.
 
-Gráficos gerados:
+## Gráficos gerados
 
-#Top 10 cidades com mais transações:
-![alt text](01_cidades.png)
+### Top 10 cidades com mais transações
+![Top 10 cidades](01_cidades.png)
 
-Top 10 estados com mais transações:
-![alt text](image-11.png)
+### Top 10 estados com mais transações
+![Top 10 estados](image-11.png)
 
-Valor das transações:
-![alt text](02_valor_transacoes.png)  
+### Valor das transações
+![Valor das transações](02_valor_transacoes.png)
 
-  
-Obs: A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
+**Obs:** A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
 
-Categorias de compras com maior indice de fraude:
-![alt text](image-9.png)
+### Categorias de compras com maior índice de fraude
+![Categorias fraude](image-9.png)
 
-Proporção de fraudes por gênero:
-![alt text](image-10.png)
+### Proporção de fraudes por gênero
+![Fraude por gênero](image-10.png)
 
 
 ### 4. Business (Gold)
