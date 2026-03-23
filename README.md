@@ -67,6 +67,7 @@ Top 10 estados com mais transações:
 
 Valor das transações:
 ![alt text](02_valor_transacoes.png)
+  
 Obs: A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
 
 Categorias de compras com maior indice de fraude:
@@ -89,19 +90,24 @@ Execução métricas gold:
 
 ### Perguntas de negócio respondidas
 
-1. Qual estado teve a maior taxa de fraude?
+1. Qual estado teve a maior taxa de fraude?  
+
 O estado com maior taxa de fraude, considerando apenas estados com volume relevante de transações, foi **Alasca**. Foram registradas **36 fraudes** em **2120 transações**, o que representa uma taxa de **1.7%**, equivalente a aproximadamente **17.0 fraudes por mil transações**.
 
-2. Qual categoria teve o maior valor total fraudado?
+2. Qual categoria teve o maior valor total fraudado?  
+
 A categoria com maior impacto financeiro em fraudes foi **Shopping Net**. Ela acumulou **1713 transações fraudulentas**, totalizando **US$ 1.711.723,71** em valor fraudado, com um ticket médio de **US$ 999,25** por transação fraudulenta.
 
-3. Em qual faixa etária a taxa de fraude é maior?
+3. Em qual faixa etária a taxa de fraude é maior?  
+
 A faixa etária com maior taxa de fraude foi **De 55 a 64 anos**. Nesse grupo, ocorreram **1259 fraudes** em **164087 transações**, resultando em uma taxa de **0.77%**, o equivalente a aproximadamente **7.7 fraudes por mil transações**.
 
-4. Em qual horário do dia acontecem mais fraudes?
+4. Em qual horário do dia acontecem mais fraudes?  
+
 O horário com maior taxa de fraude foi **22:00**. Nesse período, foram registradas **1931 fraudes** em **66982 transações**, equivalendo a **2.88%**, ou aproximadamente **28.8 fraudes por mil transações**.
 
-5. Qual foi o dia da semana com maior taxa de fraude?
+5. Qual foi o dia da semana com maior taxa de fraude?  
+
 O dia da semana com maior taxa de fraude foi **Sexta-Feira**. Nesse dia, foram registradas **1079 fraudes** em **152272 transações**, o que corresponde a **0.71%**, ou aproximadamente **7.1 fraudes por mil transações**.
 
 
@@ -142,12 +148,14 @@ Pré-requisitos:
 - Banco de dados `lab01_dw` criado
 - Acesso configurado com usuário e senha no código
 
-1. Instalação das dependências
+1. Instalação das dependências  
+
 Antes de executar o projeto, é necessário instalar as bibliotecas utilizadas:
 
 pip install -r requirements.txt
 
-2. Ordem de execução dos scripts
+2. Ordem de execução dos scripts  
+
 Os scripts devem ser executados na seguinte ordem, respeitando a sequência do pipeline de dados:
 
 python src/01_ingestao_bronze.py
@@ -156,7 +164,8 @@ python src/03_processamento_silver.py
 python src/04_processamento_gold.py
 python src/05_metricas_gold.py
 
-3. Descrição das etapas
+3. Descrição das etapas  
+
 - 01_ingestao_bronze.py
 Realiza a ingestão dos dados brutos (CSV) para o PostgreSQL, criando a camada Bronze.
 - 02_validacao_bronze.py
@@ -168,5 +177,6 @@ Aplica modelagem dimensional (Star Schema), criando tabelas fato e dimensões na
 - 05_metricas_gold.py
 Executa consultas analíticas na Gold e gera métricas de negócio e relatórios.
 
-4. Resultado
+4. Resultado  
+
 Ao final da execução, o usuário recebe um relatório analítico com os principais padrões de fraude identificados,
