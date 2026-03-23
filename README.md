@@ -65,8 +65,10 @@ Gráficos gerados:
 Top 10 estados com mais transações:
 ![alt text](image-11.png)
 
-Valor das transações:
-![alt text](02_valor_transacoes.png)
+Valor das transações:  
+
+![alt text](02_valor_transacoes.png)  
+
   
 Obs: A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
 
