@@ -88,6 +88,7 @@ Execução processamento gold:
 Execução métricas gold:
 ![alt text](image-8.png)
 
+  
 ### Perguntas de negócio respondidas
 
 1. Qual estado teve a maior taxa de fraude?  
