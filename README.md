@@ -61,10 +61,10 @@ Problemas Identificados:
 
 <<<<<<< HEAD
 ### Top 10 cidades com mais transações
-![Top 10 cidades](01_cidades.png)
+![Top 10 cidades](imagens/01_cidades.png)
 
 ### Top 10 estados com mais transações
-![Top 10 estados](image-11.png)
+![Top 10 estados](imagens/image-11.png)
 =======
 #Top 10 cidades com mais transações:
 ![alt text](imagens/image-11.png)
@@ -74,13 +74,13 @@ Top 10 estados com mais transações:
 >>>>>>> e24b88f (correcao readme.md)
 
 ### Valor das transações
-![Valor das transações](02_valor_transacoes.png)
+![Valor das transações](imagens/02_valor_transacoes.png)
 
 <<<<<<< HEAD
 **Obs:** A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
 
 ### Categorias de compras com maior índice de fraude
-![Categorias fraude](image-9.png)
+![Categorias fraude](imagens/image-9.png)
 
 ### Proporção de fraudes por gênero
 ![Fraude por gênero](image-10.png)
