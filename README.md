@@ -56,46 +56,24 @@ Problemas Identificados:
 - Ausência de nulos e duplicatas, porém sem validação semântica dos dados.
 - Presença de outliers na variável de valor (`amt`).
 - Dados sensíveis presentes (nome, endereço, cartão), sem anonimização.
-
 ## Gráficos gerados
 
-<<<<<<< HEAD
 ### Top 10 cidades com mais transações
-![Top 10 cidades](imagens/01_cidades.png)
+![Top 10 cidades com mais transações](imagens/01_cidades.png)
 
 ### Top 10 estados com mais transações
-![Top 10 estados](imagens/image-11.png)
-=======
-#Top 10 cidades com mais transações:
-![alt text](imagens/image-11.png)
-
-Top 10 estados com mais transações:
-![alt text](imagens/image-11.png)
->>>>>>> e24b88f (correcao readme.md)
+![Top 10 estados com mais transações](imagens/image-11.png)
 
 ### Valor das transações
 ![Valor das transações](imagens/02_valor_transacoes.png)
 
-<<<<<<< HEAD
-**Obs:** A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
+> **Observação:** A escala logarítmica foi utilizada para reduzir a diferença entre valores muito pequenos e muito grandes, facilitando a visualização da distribuição dos dados.
 
 ### Categorias de compras com maior índice de fraude
-![Categorias fraude](imagens/image-9.png)
+![Categorias de compras com maior índice de fraude](imagens/image-9.png)
 
 ### Proporção de fraudes por gênero
-![Fraude por gênero](image-10.png)
-=======
-![alt text](imagens/02_valor_transacoes.png)  
-
-  
-Obs: A escala logarítmica é usada para reduzir a diferença entre valores muito pequenos e muito grandes, permitindo visualizar melhor a distribuição dos dados.
-
-Categorias de compras com maior indice de fraude:
-![alt text](imagens/image-9.png)
-
-Proporção de fraudes por gênero:
-![alt text](imagens/image-10.png)
->>>>>>> e24b88f (correcao readme.md)
+![Proporção de fraudes por gênero](imagens/image-10.png)
 
 
 ### 4. Business (Gold)
