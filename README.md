@@ -4,7 +4,8 @@
 Este projeto tem como objetivo construir um pipeline de engenharia de dados utilizando a arquitetura em camadas (Raw, Bronze, Silver e Gold), com foco na ingestão, tratamento e preparação de dados de transações de cartão de crédito para análise de fraudes.
 
 ## Dataset
-- Fonte: Kaggle  
+- Fonte: Kaggle
+- Link: https://www.kaggle.com/datasets/kaushalnandania/credit-card-fraud-detection?select=train.csv
 - Dataset: Credit Card Fraud Detection  
 - Arquivo utilizado: train.csv  
 - Volume: 1.296.675 linhas e 23 colunas  
